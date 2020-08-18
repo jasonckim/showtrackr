@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #fff;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.community-padding{
+padding-top: 100px;
+}
+
+.end-icons-container{
+  padding-top: 100px;
+}
+
+.end-icons{
+  padding: 0 20px 30px 20px;
+}
+
+.end-text{
+ opacity: 0.3;
+ font-family: 'Source Sans Pro';
+ font-size: 12px;
+ font-weight: 600;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ text-align: center;
+ color: #000000;
+ padding-bottom: 40px;
+}

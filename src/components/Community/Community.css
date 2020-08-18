@@ -1,0 +1,160 @@
+@media screen and (max-width: 600px) {
+  div.community-header {
+    font-size: 12px;
+    min-height: 100px;
+  }
+  div.community-paragraph{
+    font-size: 15px
+  }
+  img.phone-image{
+    width: 150px;
+    height: auto;
+  }
+}
+
+.community{
+  background-color: #000;
+  color: #fff;
+}
+
+.community-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.community-title{
+  opacity: 0.8;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: left;
+}
+
+.community-header{
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.community-paragraph{
+  font-family: 'Source Sans Pro';
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.community-button-container{
+  text-align: left;
+}
+
+.community-button{
+  width: 216px;
+  height: 42px;
+  border-radius: 4px;
+  background-color: #540cfa;
+  color: #fff;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.community-button:hover{
+  background-color: #8350fb;
+}
+
+.images-community{
+  width: auto;
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  .images-community{
+    width: 300px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+  }
+  .community-title{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .community-header{
+    text-align: center;
+  }
+  .community-paragraph{
+    text-align: center;
+  }
+  .community-button-container{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width: 768px) {
+  .images-community{
+    width: 450px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+  }
+  .community-title{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .community-header{
+    text-align: center;
+  }
+  .community-paragraph{
+    text-align: center;
+  }
+  .community-button-container{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+  .images-community{
+    width: 475px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+  }
+  .community-title{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .community-header{
+    text-align: center;
+  }
+  .community-paragraph{
+    text-align: center;
+  }
+  .community-button-container{
+    text-align: center;
+  }
+}
+/*
+@media screen and (min-width: 992px) {
+  .images-community{
+    width: 400px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+  }
+} */

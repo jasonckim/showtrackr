@@ -1,0 +1,132 @@
+.features-title {
+  opacity: 0.8;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.features-header{
+  font-family: 'Source Sans Pro';
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: normal;
+}
+.header{
+  font-weight: 700;
+}
+
+.features-paragraph{
+  font-family: 'Source Sans Pro';
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.52;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.images-tvshows{
+  width: 100%;
+}
+
+.morefeatures-header{
+  font-family: 'Source Sans Pro';
+  line-height: 1.03;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.morefeatures-paragraph{
+  font-family: 'Source Sans Pro';
+  font-size: 21px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.52;
+  text-align: left
+}
+
+.icon{
+  text-align: left;
+}
+
+.icon-images{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.icon-text{
+  width: auto;
+  height: 20px;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.images-demo{
+  width: 500px;
+  height: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  .images-demo{
+    width: 300px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+  }
+  .morefeatures-header{
+    text-align: center;
+  }
+  .morefeatures-paragraph{
+    text-align: center;
+  }
+  .icon{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width: 768px) {
+  .images-demo{
+    width: 360px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+  }
+  .morefeatures-header{
+    text-align: center;
+  }
+  .morefeatures-paragraph{
+    text-align: center;
+  }
+  .icon{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+  .images-demo{
+    width: 350px;
+    height: auto;
+    position: relative;
+  }
+}
+
+.demo-container{
+  height: auto;
+  width: 500px;
+  overflow: hidden;
+  display: inline;
+  position: relative;
+}

@@ -1,0 +1,66 @@
+.start-title {
+  opacity: 0.8;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.start-email-component{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  left:80px;
+}
+
+@media screen and (min-width:360px) and (max-width: 500px) {
+  .start-email-component{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left:10px;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width: 576px) {
+  .start-email-component{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left:40px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width: 768px) {
+  .start-email-component{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left:25px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+  .start-email-component{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left:50px;
+  }
+}
+
+.start-header {
+  font-family: 'Source Sans Pro';
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: normal;
+}
+
+.start-paragraph{
+  font-family: 'Source Sans Pro';
+  font-size: 21px;;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+}

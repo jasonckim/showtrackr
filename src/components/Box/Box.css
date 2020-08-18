@@ -1,0 +1,50 @@
+.box {
+  width: 100%;
+}
+
+.box-header{
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.box-text{
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+a:hover{
+  color:#8350fb;
+}
+
+.box-cta{
+  width: 80px;
+  height: 48px;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #540cfa;
+  cursor: pointer;
+}
+
+.box-arrow{
+  width: 6px;
+  height: 6px;
+  transform: rotate(-45deg);
+}
